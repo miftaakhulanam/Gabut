@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./public/css/style.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/line-clamp": "^0.4.2",
+    "line-clamp": "^1.0.0"
+  }
+}
